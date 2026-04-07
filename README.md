@@ -32,6 +32,6 @@ e cobertura complementar dos conteúdos sobre Renda Fixa.
 | # | Título | Instituição | Link | Justificativa |
 |---|--------|------------|------|---------------|
 | 1 | Guia do Investidor | Tesouro Direto | [Link](https://www.tesourodireto.com.br/documentos/guia-do-investidor.htm) | Fonte oficial com foco prático nos tipos de títulos públicos disponíveis |
-| 2 | Caderno de Educação Financeira | Banco Central do Brasil | [Link](https://www.bcb.gov.br/.../caderno_cidadania_financeira.pdf) | Base conceitual sobre juros, poupança e gestão financeira pessoal |
+| 2 | Caderno de Educação Financeira | Banco Central do Brasil | [PDF](https://github.com/poliato2015-max/imagens/blob/main/projeto_notebooklm_investir_renda_fixa_caderno_cidadania_financeira_banco_central.pdf?raw=true) | Base conceitual sobre juros, poupança e gestão financeira pessoal |
 | 3 | Livro TOP — Mercado de Valores Mobiliários | CVM / ANBIMA | [Link](https://gmw.investidor.gov.br/.../livro_TOP...pdf) | Visão técnica e abrangente do sistema financeiro brasileiro |
 | 4 | Vantagens e Desvantagens da Renda Fixa | B3 | [Link](#) | Comparativo direto entre os principais produtos de renda fixa do mercado |
