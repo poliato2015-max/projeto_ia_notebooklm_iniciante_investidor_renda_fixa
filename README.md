@@ -3,6 +3,7 @@
 > Como usar IA para aprender a investir?
 > Este repositório documenta minha jornada de estudo sobre Renda Fixa utilizando NotebookLM, engenharia de prompts e fontes oficiais como Tesouro Direto, Banco Central e CVM.
 
+
 ## 🎯 Contexto e Objetivos
 
 ### Contexto
@@ -24,6 +25,7 @@ Ao final deste caderno temático, espero ser capaz de:
 - ✅ Identificar qual produto é mais adequado para cada perfil e objetivo
 - ✅ Utilizar a IA como ferramenta de estudo de forma crítica e eficiente
 
+
 ## 📚 Curadoria de Fontes
 
 As fontes foram selecionadas com base em três critérios:
@@ -38,3 +40,48 @@ e cobertura complementar dos conteúdos sobre Renda Fixa.
 | 4 | Vantagens e Desvantagens da Renda Fixa | B3 |[PDF](https://github.com/poliato2015-max/imagens/blob/main/projeto_notebooklm_investir_renda_fixa_vantagens_desvantagens_renda_fixa_b3.pdf?raw=true) | Comparativo direto entre os principais produtos de renda fixa do mercado |
 
 > Observação: Os PDFs foram hospedados no GitHub para garantir acesso público, já que algumas fontes originais exigem autenticação.
+
+
+## 🧪 Engenharia de Prompts
+
+### Bloco 1 — Conceitos Fundamentais
+
+#### 🔹 Prompt 1A
+> "Atue como um educador financeiro. O que é 
+> renda fixa e quais são os principais produtos 
+> disponíveis para um investidor iniciante no 
+> Brasil? Use apenas as informações presentes 
+> nas fontes disponíveis."
+
+**Resultado:** Resposta técnica e abrangente, 
+cobrindo Tesouro Direto (Selic, Prefixado, IPCA+), 
+CDB, LCI, LCA, Poupança e Fundos DI, com 
+explicações sobre FGC, liquidez e tributação.
+
+#### 🔹 Prompt 1B — Variação
+> "Atue como um educador financeiro. Explique 
+> o conceito de renda fixa como se eu nunca 
+> tivesse investido antes. Use exemplos do 
+> cotidiano para facilitar o entendimento e 
+> baseie-se apenas nas fontes disponíveis."
+
+**Resultado:** Resposta altamente didática com 
+analogia do imóvel/aluguel e exemplo prático 
+do computador de R$1.000. Mais acessível para 
+públicos sem experiência financeira.
+
+#### 🔍 Cicatriz — Comparativo 1A vs 1B
+
+**Observação:** A mudança de "explique os 
+produtos" para "explique como se eu nunca 
+tivesse investido" transformou completamente 
+o tom da resposta. O Prompt 1B gerou analogias 
+espontâneas e uma narrativa mais envolvente, 
+sem perder precisão técnica.
+
+**Aprendizado:** Contextualizar o nível do 
+público-alvo no prompt é tão importante quanto 
+o conteúdo da pergunta em si. Para fins 
+didáticos, o 1B se mostrou superior.
+
+
