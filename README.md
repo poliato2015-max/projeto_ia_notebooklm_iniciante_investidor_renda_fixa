@@ -226,6 +226,91 @@ Risco de Crédito, trazendo informação ausente
 no 4A: a segregação patrimonial dos fundos 
 como mecanismo de proteção alternativo ao FGC.
 
+---
+
+### Bloco 5 — Descoberta: Produtos Avançados de Renda Fixa
+
+#### 🔹 Prompt 5A
+> "Atue como um educador financeiro. O que são 
+> LC (Letra de Câmbio), LF (Letra Financeira), 
+> Debêntures, CRI e CRA como produtos de renda 
+> fixa? Baseie-se apenas nas fontes disponíveis."
+
+**Resultado obtido:** O NotebookLM detalhou 
+todos os 5 produtos com precisão:
+- **LC:** Emitida por financeiras para captar 
+  recursos destinados a financiamentos. 
+  Coberta pelo FGC.
+- **LF:** Chamada de "debênture dos bancos", 
+  valor mínimo de R$150.000,00, prazo mínimo 
+  de 24 meses, sem liquidez antecipada.
+- **Debêntures:** Títulos emitidos por empresas 
+  S/A. O investidor torna-se credor, não sócio. 
+  Podem ser simples ou conversíveis em ações.
+- **CRI:** Lastreado em créditos imobiliários, 
+  emitido por securitizadoras. Sem cobertura FGC.
+- **CRA:** Lastreado em recebíveis do agronegócio. 
+  Sem cobertura FGC.
+
+**Destaque da resposta:** A IA trouxe 
+espontaneamente uma distinção crítica sobre 
+cobertura do FGC:
+
+| Produto | Cobertura FGC |
+|---------|--------------|
+| LC | ✅ Coberto até R$250 mil |
+| CDB | ✅ Coberto até R$250 mil |
+| LCI / LCA | ✅ Coberto até R$250 mil |
+| LF | ❌ Não coberto |
+| Debêntures | ❌ Não coberto |
+| CRI / CRA | ❌ Não coberto |
+
+---
+
+#### 🔍 Cicatriz — Escopo das Fontes vs. Mercado Real
+
+**Contexto:** Ao acessar uma corretora de 
+investimentos, identifiquei produtos de renda 
+fixa não abordados nos prompts anteriores: 
+LC, LF, Debêntures, CRI e CRA.
+
+**Hipótese inicial:** Imaginei que as fontes 
+não cobriam esses produtos, já que não 
+apareceram espontaneamente nas respostas 
+dos Blocos 1 a 4.
+
+**O que gerou a hipótese:** O prompt anterior 
+sobre LC e LF foi corrigido após perceber que 
+a versão inicial havia omitido esses dois 
+produtos sem justificativa — demonstrando 
+que a revisão crítica dos próprios prompts 
+é parte essencial da engenharia de prompts.
+
+**Resultado:** O NotebookLM respondeu com 
+riqueza de detalhes — todos os produtos 
+estavam nas fontes e foram explicados 
+com precisão.
+
+**Causa real identificada:** Os prompts 
+anteriores foram formulados de forma genérica 
+("principais produtos para iniciantes"), 
+levando a IA a priorizar naturalmente os 
+produtos mais populares e acessíveis. Os 
+produtos avançados existiam nas fontes mas 
+não foram evocados por falta de pergunta 
+específica.
+
+**Aprendizado:** A IA não entrega tudo 
+espontaneamente - ela responde ao que é 
+perguntado. Prompts genéricos revelam o 
+panorama geral; prompts específicos revelam 
+profundidade. Explorar ativamente o conteúdo 
+das fontes é responsabilidade do estudante, 
+não da IA. A revisão crítica dos próprios 
+prompts - como a correção que incluiu LC e LF 
+- é tão importante quanto a elaboração 
+inicial deles.
+
 **Aprendizado:** Prompts focados em um único 
 conceito geram mais profundidade do que prompts 
 abrangentes. A estratégia ideal é usar um prompt 
