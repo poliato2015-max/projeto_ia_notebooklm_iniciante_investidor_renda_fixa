@@ -71,6 +71,8 @@ analogia do imóvel/aluguel e exemplo prático
 do computador de R$1.000. Mais acessível para 
 públicos sem experiência financeira.
 
+---
+
 #### 🔍 Cicatriz — Comparativo 1A vs 1B
 
 **Observação:** A mudança de "explique os 
@@ -130,3 +132,53 @@ rentabilidade líquida LCI vs CDB, ausente no 2A,
 demonstrando que prompts mais detalhados extraem 
 respostas mais ricas.
 
+### Bloco 3 — Aplicação Prática
+
+---
+
+#### 🔹 Prompt 3A
+> "Atue como um educador financeiro. Tenho R$1.000 
+> para investir pela primeira vez e quero segurança. 
+> Com base nas fontes disponíveis, quais produtos 
+> de renda fixa seriam mais adequados para este 
+> perfil e por quê?"
+
+**Resultado:** Indicou Tesouro Selic, CDB com 
+liquidez diária e Poupança como opções para 
+perfil conservador. Trouxe seção inédita 
+explicando por que Tesouro Prefixado, IPCA+ 
+e LCI foram descartados para este perfil — 
+demonstrando raciocínio crítico da IA.
+
+---
+
+#### 🔹 Prompt 3B — Variação
+> "Atue como um educador financeiro. Qual a 
+> diferença entre investir para reserva de 
+> emergência versus investir para um objetivo 
+> de longo prazo em renda fixa? Quais produtos 
+> são mais indicados para cada situação? 
+> Baseie-se apenas nas fontes disponíveis."
+
+**Resultado:** Entregou o conteúdo mais completo 
+do caderno — distinguiu claramente os dois 
+objetivos, indicou produtos específicos para 
+cada caso e gerou tabela comparativa espontânea. 
+Trouxe alerta crítico sobre riscos do resgate 
+antecipado em títulos de longo prazo.
+
+---
+
+#### 🔍 Cicatriz — Comparativo 3A vs 3B
+
+**Observação:** O 3A respondeu bem para um 
+cenário específico (R$1.000, perfil conservador). 
+O 3B elevou o nível ao abordar a estratégia por 
+objetivo, gerando o conteúdo mais rico do caderno.
+
+**Aprendizado:** Prompts baseados em 
+**estratégia e objetivo** extraem respostas 
+mais profundas do que prompts baseados em 
+**cenário e valor**. Para fins educacionais, 
+contextualizar o "para quê" do investimento 
+é mais poderoso do que contextualizar o "quanto".
