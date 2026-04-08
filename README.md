@@ -42,6 +42,7 @@ e cobertura complementar dos conteúdos sobre Renda Fixa.
 > Observação: Os PDFs foram hospedados no GitHub para garantir acesso público, já que algumas fontes originais exigem autenticação.
 
 
+
 ## 🧪 Engenharia de Prompts
 
 ### Bloco 1 — Conceitos Fundamentais
@@ -84,4 +85,48 @@ público-alvo no prompt é tão importante quanto
 o conteúdo da pergunta em si. Para fins 
 didáticos, o 1B se mostrou superior.
 
+
+### Bloco 2 — Comparativo de Produtos
+
+#### 🔹 Prompt 2A
+> "Atue como um educador financeiro. Quais são 
+> as diferenças entre Tesouro Selic, CDB e LCI 
+> para quem está começando a investir? Use apenas 
+> as informações presentes nas fontes disponíveis."
+
+**Resultado:** Gerou espontaneamente uma tabela 
+comparativa com 5 critérios (liquidez, risco, 
+rentabilidade, tributação e valor mínimo), além 
+de pontos de atenção sobre reserva de emergência, 
+vantagem fiscal da LCI e custos operacionais.
+
+#### 🔹 Prompt 2B — Variação
+> "Atue como um educador financeiro. Compare 
+> Tesouro Selic, CDB e LCI considerando: liquidez, 
+> risco, rentabilidade e valor mínimo. Apresente 
+> em formato de tabela e baseie-se apenas nas 
+> fontes disponíveis."
+
+**Resultado:** Gerou tabela com os mesmos 5 
+critérios do 2A (incluindo tributação mesmo sem 
+solicitação) e adicionou análise numerada mais 
+aprofundada, com destaque para o comparativo 
+de rentabilidade líquida entre LCI e CDB.
+
+---
+
+#### 🔍 Cicatriz — Comparativo 2A vs 2B
+
+**Observação:** Mesmo sem solicitar formato de 
+tabela no 2A, a IA o gerou espontaneamente ao 
+perceber que o contexto era comparativo. O 2B, 
+ao especificar os critérios, gerou uma análise 
+mais estruturada e aprofundada.
+
+**Aprendizado:** Especificar critérios no prompt 
+não apenas organiza a resposta — eleva a qualidade 
+da análise. O 2B trouxe o insight sobre 
+rentabilidade líquida LCI vs CDB, ausente no 2A, 
+demonstrando que prompts mais detalhados extraem 
+respostas mais ricas.
 
