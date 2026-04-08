@@ -45,7 +45,7 @@ e cobertura complementar dos conteúdos sobre Renda Fixa.
 
 ## 🧪 Engenharia de Prompts
 
-### Bloco 1 — Conceitos Fundamentais
+### Bloco 1 - Conceitos Fundamentais
 
 #### 🔹 Prompt 1A
 > "Atue como um educador financeiro. O que é 
@@ -73,7 +73,7 @@ públicos sem experiência financeira.
 
 ---
 
-#### 🔍 Cicatriz — Comparativo 1A vs 1B
+#### 🔍 Cicatriz - Comparativo 1A vs 1B
 
 **Observação:** A mudança de "explique os 
 produtos" para "explique como se eu nunca 
@@ -87,8 +87,9 @@ público-alvo no prompt é tão importante quanto
 o conteúdo da pergunta em si. Para fins 
 didáticos, o 1B se mostrou superior.
 
+---
 
-### Bloco 2 — Comparativo de Produtos
+### Bloco 2 - Comparativo de Produtos
 
 #### 🔹 Prompt 2A
 > "Atue como um educador financeiro. Quais são 
@@ -102,7 +103,7 @@ rentabilidade, tributação e valor mínimo), além
 de pontos de atenção sobre reserva de emergência, 
 vantagem fiscal da LCI e custos operacionais.
 
-#### 🔹 Prompt 2B — Variação
+#### 🔹 Prompt 2B - Variação
 > "Atue como um educador financeiro. Compare 
 > Tesouro Selic, CDB e LCI considerando: liquidez, 
 > risco, rentabilidade e valor mínimo. Apresente 
@@ -117,7 +118,7 @@ de rentabilidade líquida entre LCI e CDB.
 
 ---
 
-#### 🔍 Cicatriz — Comparativo 2A vs 2B
+#### 🔍 Cicatriz - Comparativo 2A vs 2B
 
 **Observação:** Mesmo sem solicitar formato de 
 tabela no 2A, a IA o gerou espontaneamente ao 
@@ -132,7 +133,7 @@ rentabilidade líquida LCI vs CDB, ausente no 2A,
 demonstrando que prompts mais detalhados extraem 
 respostas mais ricas.
 
-### Bloco 3 — Aplicação Prática
+### Bloco 3 - Aplicação Prática
 
 ---
 
@@ -152,7 +153,7 @@ demonstrando raciocínio crítico da IA.
 
 ---
 
-#### 🔹 Prompt 3B — Variação
+#### 🔹 Prompt 3B - Variação
 > "Atue como um educador financeiro. Qual a 
 > diferença entre investir para reserva de 
 > emergência versus investir para um objetivo 
@@ -161,7 +162,7 @@ demonstrando raciocínio crítico da IA.
 > Baseie-se apenas nas fontes disponíveis."
 
 **Resultado:** Entregou o conteúdo mais completo 
-do caderno — distinguiu claramente os dois 
+do caderno - distinguiu claramente os dois 
 objetivos, indicou produtos específicos para 
 cada caso e gerou tabela comparativa espontânea. 
 Trouxe alerta crítico sobre riscos do resgate 
@@ -169,7 +170,7 @@ antecipado em títulos de longo prazo.
 
 ---
 
-#### 🔍 Cicatriz — Comparativo 3A vs 3B
+#### 🔍 Cicatriz - Comparativo 3A vs 3B
 
 **Observação:** O 3A respondeu bem para um 
 cenário específico (R$1.000, perfil conservador). 
@@ -182,3 +183,51 @@ mais profundas do que prompts baseados em
 **cenário e valor**. Para fins educacionais, 
 contextualizar o "para quê" do investimento 
 é mais poderoso do que contextualizar o "quanto".
+
+### Bloco 4 — Riscos e Cuidados
+
+---
+
+#### 🔹 Prompt 4A
+> "Atue como um educador financeiro. Quais são 
+> os principais riscos da renda fixa que um 
+> investidor iniciante precisa conhecer antes 
+> de aplicar seu dinheiro? Baseie-se apenas 
+> nas fontes disponíveis."
+
+**Resultado:** Estruturou os 4 pilares de risco 
+da renda fixa: Crédito, Mercado, Liquidez e 
+Concentração. Destaque para o conceito de 
+"marcação a mercado" e o alerta sobre reserva 
+de emergência em títulos sem liquidez diária.
+
+---
+
+#### 🔹 Prompt 4B - Variação
+> "Atue como um educador financeiro. O que é 
+> o FGC e como ele protege o investidor de 
+> renda fixa? Quais produtos são cobertos 
+> por ele e quais não são? Baseie-se apenas 
+> nas fontes disponíveis."
+
+**Resultado:** Explicou o FGC de forma completa, 
+listou produtos cobertos (Poupança, CDB, LCI, LCA) 
+e não cobertos (Tesouro Direto e Fundos), com 
+destaque para o conceito inédito de segregação 
+patrimonial dos fundos de investimento.
+
+---
+
+#### 🔍 Cicatriz - Comparativo 4A vs 4B
+
+**Observação:** O 4A mapeou o panorama completo 
+de riscos. O 4B aprofundou especificamente o 
+Risco de Crédito, trazendo informação ausente 
+no 4A: a segregação patrimonial dos fundos 
+como mecanismo de proteção alternativo ao FGC.
+
+**Aprendizado:** Prompts focados em um único 
+conceito geram mais profundidade do que prompts 
+abrangentes. A estratégia ideal é usar um prompt 
+panorâmico (4A) para mapear o tema e prompts 
+específicos (4B) para aprofundar os pontos críticos.
