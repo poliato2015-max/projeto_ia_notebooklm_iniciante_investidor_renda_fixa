@@ -65,12 +65,21 @@ sobre Renda Fixa.
 > investimentos" evita viés de recomendação
 > profissional e mantém o foco didático do caderno.
 
----
-
-**Resultado:** Resposta técnica e abrangente, 
-cobrindo Tesouro Direto (Selic, Prefixado, IPCA+), 
-CDB, LCI, LCA, Poupança e Fundos DI, com 
-explicações sobre FGC, liquidez e tributação.
+> #### 🔍 Cicatriz — Escolha da Persona
+> **Hipótese testada:** Usar "consultor de 
+> investimentos" como persona.
+>
+> **Problema identificado:** Essa persona gera 
+> recomendações específicas, assumindo papel 
+> regulatório que a IA não deve exercer.
+>
+> **Solução adotada:** Substituída por "educador 
+> financeiro", mantendo didática sem viés de 
+> aconselhamento profissional.
+>
+> **Aprendizado:** A escolha da persona impacta 
+> diretamente o escopo e a confiabilidade 
+> da resposta da IA.
 
 ---
 
@@ -449,53 +458,67 @@ o limite do FGC de R$250 mil por instituição.
 ### 🔄 Parte 3 — Prompts Reutilizáveis para Revisão
 
 #### 🔹 Revisão Geral
-
+```
 Atue como um educador financeiro e faça um
 resumo dos principais conceitos de renda fixa
 abordados nas fontes, adequado para uma
 revisão rápida de 5 minutos.
+```
+
+---
 
 #### 🔹 Revisão por Produto
-
+```
 Atue como um educador financeiro. Explique
 detalhadamente como funciona o [PRODUTO],
 seus riscos, vantagens e para qual perfil
 de investidor é mais indicado. Baseie-se
 apenas nas fontes disponíveis.
+```
+
+---
 
 #### 🔹 Simulação de Cenário
-
+```
 Atue como um educador financeiro. Tenho
 [VALOR] para investir com objetivo de
 [OBJETIVO] em um prazo de [PRAZO]. Quais
 produtos de renda fixa são mais adequados
 para este cenário? Baseie-se apenas nas
 fontes disponíveis.
+```
+
+---
 
 #### 🔹 Revisão de Riscos
-
+```
 Atue como um educador financeiro. Explique
 o [RISCO] na renda fixa com um exemplo
 prático do cotidiano. Baseie-se apenas
 nas fontes disponíveis.
+```
+
+---
 
 #### 🔹 Comparativo Personalizado
-
+```
 Atue como um educador financeiro. Compare
 [PRODUTO A] e [PRODUTO B] considerando
 liquidez, risco, rentabilidade e tributação.
 Indique qual é mais adequado para um
 investidor [PERFIL]. Baseie-se apenas
 nas fontes disponíveis.
+```
+
+---
 
 #### 🔹 Aprofundamento de Conceito
-
+```
 Atue como um educador financeiro. Explique
 o conceito de [TERMO] com linguagem simples
 e um exemplo prático. Baseie-se apenas
 nas fontes disponíveis.
-
----
+```
 
 ## 🏁 Conclusão
 
