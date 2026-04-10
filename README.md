@@ -335,6 +335,76 @@ inicial deles.
 
 ---
 
+### Bloco 6 — Rentabilidade: Bruta vs Líquida
+
+#### 🔹 Prompt 6A
+> "Atue como um educador financeiro. Como funciona
+> a rentabilidade dos principais produtos de renda
+> fixa: Tesouro Selic, Tesouro IPCA+, Tesouro
+> Prefixado, CDB, LCI, LCA, LC, LF, Debêntures,
+> CRI e CRA? Como comparar qual produto rende mais
+> para o investidor iniciante considerando
+> rentabilidade bruta e líquida? Baseie-se apenas
+> nas fontes disponíveis."
+
+**Resultado obtido:** Explicou o funcionamento da
+rentabilidade de todos os produtos e introduziu
+o conceito central de rentabilidade bruta vs
+líquida, com destaque para a tabela regressiva
+de IR (22,5% a 15%), taxa de custódia do Tesouro
+Direto (0,25% a.a.) e isenção de IR para LCI,
+LCA, CRI, CRA e Poupança.
+
+---
+
+#### 🔹 Prompt 6B — Variação
+> "Atue como um educador financeiro. Tenho um CDB
+> rendendo 100% do CDI e uma LCI rendendo 90% do
+> CDI. Qual deles tem maior rentabilidade líquida
+> para um investimento de 1 ano? Explique o impacto
+> do Imposto de Renda na comparação. Baseie-se
+> apenas nas fontes disponíveis."
+
+**Resultado obtido:** Demonstrou com cálculo prático
+que a LCI a 90% do CDI supera o CDB a 100% do CDI
+após o desconto do IR de 17,5% para 1 ano:
+- CDB: 100% - 17,5% IR = **82,5% líquido**
+- LCI: 90% - 0% IR = **90% líquido**
+
+Trouxe alerta importante sobre liquidez — a
+rentabilidade maior da LCI pode não compensar
+se o investidor precisar resgatar antes do
+vencimento.
+
+---
+
+#### 🔍 Cicatriz — Prompt Incompleto e Variação Prática
+
+**Contexto:** Ao elaborar o prompt 6A sobre
+rentabilidade, a versão inicial omitia CRA,
+CRI, Debêntures, LC e LF — produtos estudados
+nos blocos anteriores.
+
+**Correção aplicada:** O prompt foi revisado para
+incluir todos os produtos do caderno, garantindo
+comparação completa.
+
+**Sobre a variação 6B:** O prompt 6A explicou
+o conceito de rentabilidade bruta vs líquida de
+forma abrangente. O 6B transformou esse conceito
+em um exemplo prático com cálculo direto,
+tornando o aprendizado mais concreto e aplicável.
+
+**Aprendizado:** Prompts conceituais (6A) e
+prompts práticos (6B) são complementares —
+o primeiro constrói o entendimento, o segundo
+consolida com aplicação real. Para temas
+financeiros, sempre que possível, complemente
+conceitos abstratos com exemplos numéricos
+concretos.
+
+---
+
 ## 📖 Miniguia de Estudo — Renda Fixa para Iniciantes
 
 > Este miniguia foi construído com base nas respostas
@@ -430,6 +500,36 @@ o limite do FGC de R$250 mil por instituição.
 
 ---
 
+#### 1.6 Rentabilidade Bruta vs Líquida
+
+| Conceito | Definição |
+|----------|-----------|
+| **Rentabilidade Bruta** | Ganho total antes de impostos e taxas |
+| **Rentabilidade Líquida** | O que sobra após IR, taxas e custos |
+
+**Produtos com IR — Tabela Regressiva:**
+| Prazo | Alíquota IR |
+|-------|------------|
+| Até 180 dias | 22,5% |
+| 181 a 360 dias | 20,0% |
+| 361 a 720 dias | 17,5% |
+| Acima de 720 dias | 15,0% |
+
+**Produtos isentos de IR para pessoa física:**
+- ✅ LCI, LCA, CRI, CRA e Poupança
+
+**Exemplo prático — CDB vs LCI em 1 ano:**
+| Produto | Taxa Bruta | IR | Taxa Líquida |
+|---------|-----------|-----|-------------|
+| CDB | 100% CDI | 17,5% | 82,5% CDI |
+| LCI | 90% CDI | Isento | 90% CDI |
+
+> 💡 Conclusão: A LCI de 90% supera o CDB de
+> 100% após o IR. Sempre compare a rentabilidade
+> líquida antes de investir!
+
+---
+
 ### 📖 Parte 2 — Glossário de Conceitos
 
 | Termo | Definição |
@@ -452,6 +552,8 @@ o limite do FGC de R$250 mil por instituição.
 | **Reserva de Emergência** | Valor para cobrir imprevistos — idealmente 3 a 6 meses de gastos |
 | **Juros Compostos** | Juros calculados sobre o valor acumulado |
 | **Tabela Regressiva IR** | Alíquota do IR que diminui conforme o tempo de aplicação |
+| **Rentabilidade Bruta** | Ganho total do investimento antes do desconto de impostos e taxas |
+| **Rentabilidade Líquida** | Ganho efetivo após descontar IR, taxas de custódia e administração |
 
 ---
 
