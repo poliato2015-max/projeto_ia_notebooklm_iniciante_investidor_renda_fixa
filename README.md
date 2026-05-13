@@ -1,5 +1,9 @@
 # 📘 Caderno Temático: Renda Fixa para Iniciantes
 
+[![NotebookLM](https://img.shields.io/badge/Ferramenta-NotebookLM-blue)](https://notebooklm.google.com)
+[![DIO Desafio IA](https://img.shields.io/badge/DIO-Desafio%20IA-orange)](https://www.dio.me)
+[![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen)]()
+
 > Como usar IA para aprender a investir? Este 
 > repositório documenta minha jornada de estudo 
 > sobre Renda Fixa usando NotebookLM, engenharia 
@@ -646,5 +650,10 @@ como ferramenta de estudo foram:
   é parte essencial do processo
 
 ---
-*Projeto desenvolvido para o curso de 
-Inteligência Artificial da DIO* 🚀
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Marcelo Poliato de Oliveira** como parte do curso de Inteligência Artificial da [DIO](https://www.dio.me).
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Marcelo%20Poliato-0077B5?logo=linkedin)](https://www.linkedin.com/in/marcelo-poliato)
+[![GitHub](https://img.shields.io/badge/GitHub-poliato2015--max-181717?logo=github)](https://github.com/poliato2015-max)
